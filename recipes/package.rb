@@ -32,6 +32,8 @@ else
                   "rhel" => ["python","python-devel"],
                   "freebsd" => ["python"],
                   "smartos" => ["python27"],
+                  "amazon"  => ["python27", "python27-devel"],
+                  "centos"  => ["python27", "python27-devel"],
                   "default" => ["python","python-dev"]
                 )
 end
